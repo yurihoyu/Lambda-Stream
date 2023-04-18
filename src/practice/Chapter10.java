@@ -16,6 +16,8 @@ public class Chapter10 {
 		// 以下記述
 		long count = list.stream().filter(f -> f.isDone() != true).count();
 		System.out.println("未完了のタスクの個数は" + count);
+		System.out.println("【未完了のタスクを昇順に並び替えて一覧表示】");
+
 
 		// Stream APIとラムダ式を使って記述
 		list.stream()// Streamを生成
